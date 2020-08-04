@@ -1,0 +1,64 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "Is anyone there?", "Hello", "Good day", "good morning", "good afternoon", "good evening", "howdy"],
+      "responses": ["Hello, this is River of Life. What can I do for you?", "Hi, this is River of Life. Good to see you.", "Hi there, this is River of Life. How can I help you?"],
+      "context_set": ""
+    },
+    {"tag": "looking",
+      "patterns": ["I am looking for a church", "searching for a church"],
+      "responses": ["That is great! You are in the right place. We would love to have you in our chuch."]
+    },
+    {"tag": "contact",
+      "patterns": ["How can i contact you?", "Do you have a contact number?", "Can i have your contact number?", "can i call you?"],
+      "responses": ["Please contact this number for more information - +971xxxxx.", "Drop a call on this number +971xxxxxxx. We will wait for you."]
+    },
+    {"tag": "location",
+      "patterns": ["Where is your location?", "Can you please tell me your location?", "where are you in Dubai?", "where are you located?"],
+      "responses": ["Right now we only have an online gathering. Soon after the pandemic we will proceed on gathering somewhere in Dubai."]
+    },
+    {"tag": "family",
+      "patterns": ["Are you a church?", "is this a church?", "what is your business?", "What do you do?"],
+      "responses": ["River of Life Internation Christian Ministries is a church. We are a family of believers of Jesus Christ who teaches how to stay LOW - Love, Obey and Worship our living God."]
+    },
+    {"tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye", "see you", "i'll see you", "i will see you", "see you soon"],
+      "responses": ["See you later, thanks for messaging. God bless you!", "Have a blessed day.", "Bye! message me again soon. Blessed day!"]
+    },
+    {"tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {"tag": "moreinfo",
+      "patterns": ["i see"],
+      "responses": ["Do you need more information?", "Did I answer your question?"]
+    },
+    {"tag": "yes",
+      "patterns": ["yes"],
+      "responses": ["Cool!", "Great!"]
+    },
+    {"tag": "feel",
+      "patterns": ["How do you feel today?", "What are you feelings today?", "Are you happy today?", "How is your day?", "I am good, how about you?", "how are you?"],
+      "responses": ["I feel blessed. Thanks God.", "God is great. He makes me feel blessed.", "I am good. Today is a blessed day."]
+    },
+    {"tag": "verse",
+      "patterns": ["Which verse do you have?", "What verse do you have for me?", "What do you suggest as my verse?", "Can you suggest a verse for me?" ],
+      "responses": ["Philippians 4:13 I can do all this through him who gives me strength.", 
+        "Jeremiah 29:11 For I know the plans I have for you,” declares the Lord, “plans to prosper you and not to harm you, plans to give you hope and a future.",
+        "Matthew 6:33 But seek first his kingdom and his righteousness, and all these things will be given to you as well"]
+    },
+    {"tag": "service",
+      "patterns": ["What day and time is your service?", "When do you have your service?", "What are your service hours?"],
+      "responses": ["We have a service every Friday at 4PM."]
+    },
+    {"tag": "biblestudy",
+      "patterns": ["Do you have a bible study?", "Are you conducting a bible study?", "when is your bible study?" ],
+      "responses": ["We do have a bible study on weekdays. It depends where you are located."],
+      "context_set": "biblestudy"
+    },
+    {"tag": "join",
+      "patterns": ["i would like to join your service", "i would like to attend your service"],
+      "responses": ["We would love you to join us. Contact this number +971-XXXXXXX."],
+      "context_filter": "join"
+    }
+  ]
+  }
